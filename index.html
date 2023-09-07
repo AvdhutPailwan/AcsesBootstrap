@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+
+
+
+    <style>
+        li{
+            margin: 0 24px;
+        }
+        .navbar-brand{
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+        .carousel-item img{
+            height: 100vh;
+        }
+        .carousel-caption{
+            bottom: 250px;
+        }
+        .carousel-item h5{
+            font-size: 60px;
+        }
+        .pos{
+          align-items: center;
+          justify-content: center;
+        }
+        .glassomorphic{
+          background: linear-gradient(to top right,rgba(40, 39, 39, 0.601),#ffffff22);
+          backdrop-filter: blur(1.5px);
+          border-radius: 12px;
+          box-shadow: 2px 2px 5px #525252;
+          z-index: 2;
+        }
+    </style>
+
+
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-primary bg-light fixed-top">
+        <div class="container-fluid nav-flex">
+          <a class="navbar-brand" href="index.html">Acses</a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Join Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="login.html">Log In </a></li>
+                  <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./neon.jpg" class="d-block w-100" alt="..." style="width: 100%;">
+            <div class="pos">
+              <div class="carousel-caption d-none d-md-block glassomorphic">
+                <h5>Acses Welcomes you </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nisi eius? Consequatur quaerat temporibus aliquid laborum nesciunt, dicta cupiditate maxime quia soluta beatae? Totam fuga possimus temporibus eum. Animi, accusantium!</p>
+                <br>
+                <button type="button" class="btn btn-outline-light"onclick="location.href = 'https://linktr.ee/acses.kitcoek';" >Know More</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Premium Vector _ Software development, programming language, coding.jpg" class="d-block w-100" alt="...">
+            <div class="pos">
+              <div class="carousel-caption d-none d-md-block glassomorphic">
+                <h5>Departmental Commitee of CSE </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias velit ut minus accusamus quidem ad modi ab obcaecati illo!</p>
+                <br>
+                <button type="button" class="btn btn-outline-light"  onclick="location.href = 'https://linktr.ee/acses.kitcoek';">Learn New</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./back.jpg" class="d-block w-100" alt="...">
+            <div class="pos">
+              <div class="carousel-caption d-none d-md-block glassomorphic">
+                <h5>Optimize to code and learn</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, architecto! Quasi temporibus, non placeat sunt dolorum ad. Quae rerum nesciunt cupiditate iusto dolorem pariatur perspiciatis!</p>
+                <br>
+                <button type="button" class="btn btn-outline-light"onclick="location.href = 'https://linktr.ee/acses.kitcoek';" >Dive Deep</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
